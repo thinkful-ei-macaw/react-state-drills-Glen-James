@@ -5,9 +5,10 @@ import App from './App';
 import HelloWorld from './state-drills/HelloWorld';
 import Bomb from './state-drills/Bomb';
 import RouletteGun from './state-drills/RouletteGun';
+import Accordian from './state-drills/Accordian';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<RouletteGun bulletInChamber={8} />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 
 serviceWorker.unregister();
