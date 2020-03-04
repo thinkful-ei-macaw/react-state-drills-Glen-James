@@ -7,7 +7,7 @@ import Bomb from './state-drills/Bomb';
 import RouletteGun from './state-drills/RouletteGun';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<RouletteGun />, document.getElementById('root'));
+ReactDOM.render(<RouletteGun bulletInChamber={8} />, document.getElementById('root'));
 
 
 serviceWorker.unregister();
